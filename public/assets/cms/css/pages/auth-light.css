@@ -1,0 +1,111 @@
+
+.brand {
+	font-size: 44px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content {
+	max-width: 460px;
+	margin:0 auto;
+}
+.content form {
+	padding: 15px 20px 20px 20px;
+	background-color: #fff;
+}
+.login-header {margin:10px 0 20px 0;}
+.login-img {
+	display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 56px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #6bd6db;
+    font-size: 28px;
+    color: #2CC4CB;
+}
+.login-header a{
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	padding: 12px 0;
+	background-color: #c7cccf;
+}
+.login-header a.active {
+    background-color: #fff;
+    color: inherit;
+}
+.login-title {
+	margin-bottom: 15px;
+	margin-top: 0px;
+	text-align: center;
+}
+.social-auth-hr {
+	text-align: center;
+	height: 10px;
+    margin-bottom: 21px;
+    border-bottom: 1px solid #ccc;
+}
+.social-auth-hr span {
+	background: #fff;
+    padding: 0 10px;
+}
+.login-footer {
+	padding: 15px;
+	background-color: #ebedee;
+	text-align: center;
+}
+
+.login-header{
+	/* display: flex; */
+    text-align: center;
+}
+
+.login-header .logo-cover{
+	max-width: 70px;
+    margin: auto;
+}
+
+.ministry{
+	color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ministry p, h5{
+	margin: 0 0 2px 5px!important;
+}
+
+.login-content{
+	display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-item:hover {
+    color: #fff;
+    background-color: #23b7e5;
+    border-color: #ddd #ddd #23b7e5;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #23b7e5;
+}
+
+/* .nav-tabs .nav-item:hover{
+	border: 1px solid #23b7e5;
+} */
+
+.login-content ol{
+	list-style-type: devanagari;
+    padding-left: 20px;
+}
+
+.login-content ol li{
+	padding-left: 10px;
+}
